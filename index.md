@@ -1,11 +1,9 @@
 ---
-layout: base
-title: Home
+layout: home
+title: Fábio Ferreira
 description: >
 cover: true
 ---
-
-## About me
 
 I am a skilled javascript developer with 5+ years experience on web. Always thirsty for hard challenges and complex problems to solve!
 
@@ -20,6 +18,7 @@ I am a skilled javascript developer with 5+ years experience on web. Always thir
 - **IDE** *Visual Studio Code.*
 - **Roadmap Planning** *Jira, Trello.*
 - **Documentation** *Confluence, Bookstack.*
+- **Logging** *Rollbar, Sentry*
 
 ## Work experience
 
@@ -38,8 +37,9 @@ I am a skilled javascript developer with 5+ years experience on web. Always thir
 - Blockchain
 - Miscroservices
 
+<hr class="dingbat related" />
 
 <!-- ### Services integration
 - GitHub, Jira, Auth0, Zapier, Stripe, Contentful, Hubspot, Facebook, Rollbar, Sentry, Google Analytics, Heroku, Travian. -->
 
-### [Feel free to get in touch!](mailto:martinhoferreira10@gmail.com)
+### [Get in touch!](mailto:martinhoferreira10@gmail.com)

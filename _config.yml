@@ -47,12 +47,12 @@ author:
 
 # Add links to the sidebar.
 menu:
-#   - title:             Blog
-#     url:               /blog/
-#   - title:             Projects
-#     url:               /projects/
-#   - title:             Documentation
-#     url:               /docs/
+  # - title:             Blog
+  #   url:               /blog/
+  # - title:             Projects
+  #   url:               /projects/
+  # - title:             Documentation
+  #   url:               /docs/
   # - title:             About
   #   url:               /about/
 
@@ -71,8 +71,17 @@ menu:
 permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              10
-paginate_path:         /page-:num/
+# paginate:              5
+# paginate_path:         /page-:num/
+pagination:
+  enabled: true
+  per_page: 2
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 
 
 # Customizaton
@@ -263,7 +272,7 @@ plugins:
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-readme-index
   - jekyll-redirect-from
   - jekyll-relative-links

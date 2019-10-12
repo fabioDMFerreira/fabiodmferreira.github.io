@@ -1,7 +1,7 @@
 ---
-layout: list
-title: Hydejack
-slug: hydejack
+layout: blog
+title: Blog
+slug: blog
 menu: true
 order: 1
 description: >
@@ -9,4 +9,7 @@ description: >
   [@qwtel](https://twitter.com/qwtel) from [Hyde](http://hyde.getpoole.com).
   You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
   Open `_featured_tags/hydejack.md` to edit this text.
+pagination:
+  enabled: true
+  category: blog
 ---

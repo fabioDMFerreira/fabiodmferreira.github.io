@@ -33,7 +33,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-optional-front-matter (0.3.0)
       jekyll (~> 3.0)
-    jekyll-paginate (1.1.0)
+    jekyll-paginate-v2 (2.0.0)
+      jekyll (~> 3.0)
     jekyll-readme-index (0.2.0)
       jekyll (~> 3.0)
     jekyll-redirect-from (0.15.0)
@@ -80,7 +81,7 @@ DEPENDENCIES
   jekyll-default-layout
   jekyll-feed
   jekyll-optional-front-matter
-  jekyll-paginate
+  jekyll-paginate-v2
   jekyll-readme-index
   jekyll-redirect-from
   jekyll-relative-links
